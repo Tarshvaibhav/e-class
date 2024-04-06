@@ -22,6 +22,10 @@ app.get('/tarsh', (req, res) => {
     res.send('Hello, Tarsh');
   });
 
+  app.get('/tarsh1', (req, res) => {
+    res.send('Hello, Tarsh');
+  });
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
